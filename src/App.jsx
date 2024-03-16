@@ -11,24 +11,9 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<Smiskis/>}/>
-        {/* <Route path='/SmiskisMiddleHeader' element={<SmiskisMiddleHeader/>}/>
-        <Route path='/SmiskisLowMiddleHeader' element={<SmiskisLowMiddleHeader/>}/>
-        <Route path='/SmiskisBottomMiddleHeader' element={<SmiskisBottomMiddleHeader/>}/>
-        <Route path='/SmiskisBottomHeader' element={<SmiskisBottomHeader/>}/> */}
       </Routes>
-      <Footer />
+      <Footer/>
     </BrowserRouter>
-    {/* <div className="App">
-      <div>
-        <NavBar />
-        <Smiskis />
-        <SmiskisMiddleHeader />
-        <SmiskisLowMiddleHeader />
-        <SmiskisBottomMiddleHeader />
-        <SmiskisLowMiddleHeader />
-        <Footer />
-      </div>
-    </div> */}
     </>
   );
 }
