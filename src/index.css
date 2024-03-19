@@ -33,10 +33,6 @@ header {
 
 }
 
-.logo_container {
-  
-}
-
 .smiskis_header_bar {
   box-sizing: border-box;
   padding: 10px 0px 10x 30px;
@@ -53,7 +49,6 @@ header {
   font-size: 1.1rem;
   color: #228b22;
 }
-
 
 .smiskis-row-fixed-width{
   width: 100%;
@@ -91,4 +86,67 @@ h4{
 
 .smiskis-text-white{
   color: white;
+}
+
+.col-md-6{
+  width: 50%;
+}
+
+.col-sm-6{
+  width: 50%;
+}
+
+.col-md-6, .col-sm-6{
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.icon-social-footer{
+  margin: 0 5px 20px 5px;
+  display: inline-block;
+  font-size: 28px;
+  height: 24px;
+  line-height: 24px;
+  width: 24px;
+  
+}
+
+.text-right{
+  text-align: right;
+}
+
+div{
+  display: block;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.fl-page-footer{
+  font-size: 12px;
+}
+
+.clearfix{
+  content: " ";
+  display: table;
+}
+
+.fl-icon{
+  display: inline-block;
+  font-size: 28px;
+  height: 24px;
+  line-height: 24px;
+  width: 24px;
+  margin: 0 5px 20px 5px;
+}
+
+.fl-icon-facebook{
+  color: #3b5997;
+}
+
+.fl-icon-facebook-circle{
+  content: "";
 }
