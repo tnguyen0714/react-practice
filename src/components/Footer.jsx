@@ -1,14 +1,19 @@
 import React from "react";
 
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+
 function Footer() {
   return (
     <footer>
-      <div className="col-md-6 col-sm-6 text-right clearfix">
-        <div className="icon-social-footer">
+      <div className="wrapper">
+        <div className="button">
           <a
             href="https://www.facebook.com/smiski.japan/"
             // target="_blank"
-            class="fl-icon-color-branded fl-icon-facebook fl-icon-facebook-circle"
+            class="fa fa-facebook"
           >
             Facebook
           </a>

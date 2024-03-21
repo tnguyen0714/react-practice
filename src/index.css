@@ -117,36 +117,16 @@ h4{
   text-align: right;
 }
 
-div{
-  display: block;
+.fa-facebook {
+  background: #007bb5;
+  color: white;
 }
 
-*{
-  box-sizing: border-box;
-}
-
-.fl-page-footer{
-  font-size: 12px;
-}
-
-.clearfix{
-  content: " ";
-  display: table;
-}
-
-.fl-icon{
-  display: inline-block;
-  font-size: 28px;
-  height: 24px;
-  line-height: 24px;
-  width: 24px;
-  margin: 0 5px 20px 5px;
-}
-
-.fl-icon-facebook{
-  color: #3b5997;
-}
-
-.fl-icon-facebook-circle{
-  content: "";
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 60px;
+  text-decoration: none;
+  margin: 5px 80px;
+  float: right;
 }
